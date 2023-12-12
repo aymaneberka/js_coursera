@@ -1,0 +1,181 @@
+
+body {
+    background-color: #dedede;
+}
+
+h1 {
+    text-align: center;
+    font-family:Arial, sans-serif;
+    font-size: 32px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-family:Arial, sans-serif;
+}
+
+p {
+   font-size: 25px;
+   font-family:Arial, sans-serif;
+}
+
+img{
+  width:100%;
+  border: 2px solid blue;
+  border-radius: 25px;
+}
+
+
+p{
+  text-align:center;
+}
+
+div img{
+    width:150px;
+    height: 150px;
+    display:block;
+    border: 2px solid blue;
+    border-radius: 25px;
+    margin:auto;
+}
+
+div{
+  display: inline-block;
+  width: 24%;
+  margin: 5px;
+  padding: 2px;
+}
+
+/* Vue mobile jusqu'à 771 px */
+@media screen and (max-width: 771px) {
+  div {
+    width: 100%; /* Pleine largeur */
+  }
+
+  img {
+    max-height: none; /* Réinitialisation de la hauteur maximale */
+    display: block; /* Empêche les images de s'étendre à la largeur totale */
+    width: 100%; /* Remplir la largeur du conteneur */
+    margin-bottom: 10px; /* Espace entre les images */
+  }
+}
+
+/* Vue tablette à partir de 772 px */
+@media screen and (min-width: 772px) and (max-width: 997px) {
+  div {
+    width: 45%;
+  }
+
+  img {
+    max-height: 30vh; /* 30% de la hauteur de la fenêtre */
+  }
+}
+
+/* Vue grand écran à partir de 998 px */
+@media screen and (min-width: 998px) {
+  div {
+    width: 30%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+main {
+    border: 5px #000 solid;
+    margin: 10px;
+}
+ */
+/* 
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+ */
+/* img{
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+} */
+
+/* .child {
+    position: relative;
+    display: inline-block;
+    border: 5px black solid;
+    margin: 5px;
+    border-radius: 5px;
+} */
+
+/* 
+
+.label {
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+} */
+/* 
+.button {
+    display: inline-block;
+    border: 2px solid #000;
+    padding: 5px;
+    border-radius: 25px;
+}
+ */
+/* 
+.button:hover {
+    background-color:#fff;
+} */
+
+/* 
+footer {
+    display: flex;
+    justify-content: center;
+} */
+
+/* 
+header {
+    border-radius: 5px;
+    border: 5px #000 solid;
+    margin: 10px;
+} */
+
+/* 
+.label {
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+} */
+/* 
+.child:hover .label {
+    display: block;
+} */
